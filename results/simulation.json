@@ -1,0 +1,2692 @@
+{
+  "main_validation": [
+    {
+      "model": "adair",
+      "log10_mae_355": "0.09217399752070962",
+      "linear_mae_355": "3.322058991062574e-05",
+      "linear_rmse_355": "0.00021301423246149228",
+      "log10_mae_532": "0.12500562761983455",
+      "linear_mae_532": "3.4174057335807016e-05",
+      "linear_rmse_532": "0.00021694737867433136"
+    },
+    {
+      "model": "promptir",
+      "log10_mae_355": "0.09251470437266406",
+      "linear_mae_355": "3.5159986821298416e-05",
+      "linear_rmse_355": "0.00022366917595379867",
+      "log10_mae_532": "0.12520265700520494",
+      "linear_mae_532": "3.6609619310357874e-05",
+      "linear_rmse_532": "0.00022835804059944236"
+    },
+    {
+      "model": "datprl",
+      "log10_mae_355": "0.09693255063726063",
+      "linear_mae_355": "3.356896556898083e-05",
+      "linear_rmse_355": "0.0002146928146401907",
+      "log10_mae_532": "0.13282709638133328",
+      "linear_mae_532": "3.4502311873170826e-05",
+      "linear_rmse_532": "0.00021794343622774572"
+    },
+    {
+      "model": "logunet_m",
+      "log10_mae_355": "0.10465699322514826",
+      "linear_mae_355": "3.6176529964395035e-05",
+      "linear_rmse_355": "0.00023289020933756584",
+      "log10_mae_532": "0.14705642403669872",
+      "linear_mae_532": "3.652282873735202e-05",
+      "linear_rmse_532": "0.00022940932908051934"
+    },
+    {
+      "model": "gauss_logunet",
+      "log10_mae_355": "0.10720717302924607",
+      "linear_mae_355": "3.5938873999492056e-05",
+      "linear_rmse_355": "0.00022689136023334343",
+      "log10_mae_532": "0.14698483963747885",
+      "linear_mae_532": "3.673694596349517e-05",
+      "linear_rmse_532": "0.00023061425662514052"
+    },
+    {
+      "model": "physical_sdc",
+      "log10_mae_355": "0.02727558691298819",
+      "linear_mae_355": "1.7926813151690616e-05",
+      "linear_rmse_355": "0.00015670808463574056",
+      "log10_mae_532": "0.03409989378164345",
+      "linear_mae_532": "1.9446659720713473e-05",
+      "linear_rmse_532": "0.00016196880799689928"
+    }
+  ],
+  "frozen_heldout": [
+    {
+      "model": "physical_sdc",
+      "log10_mae": "0.03990422843776683",
+      "linear_mae": "3.643050545806016e-05",
+      "linear_rmse": "0.0001925415377097336",
+      "sdc_reduction_log10_mae_pct": "0.0",
+      "sdc_reduction_linear_mae_pct": "0.0",
+      "sdc_reduction_linear_rmse_pct": "0.0"
+    },
+    {
+      "model": "fullrange",
+      "log10_mae": "0.045432895428541474",
+      "linear_mae": "3.76345010965153e-05",
+      "linear_rmse": "0.00020386592920546725",
+      "sdc_reduction_log10_mae_pct": "12.16886341631106",
+      "sdc_reduction_linear_mae_pct": "3.199180548102498",
+      "sdc_reduction_linear_rmse_pct": "5.554822985806673"
+    },
+    {
+      "model": "physical_clip",
+      "log10_mae": "0.23033583926637335",
+      "linear_mae": "7.338354967202092e-05",
+      "linear_rmse": "0.00032137786658980455",
+      "sdc_reduction_log10_mae_pct": "82.67563199679954",
+      "sdc_reduction_linear_mae_pct": "50.356032624638644",
+      "sdc_reduction_linear_rmse_pct": "40.0887373630223"
+    },
+    {
+      "model": "physical_null",
+      "log10_mae": "0.22955688425750329",
+      "linear_mae": "7.34472744826355e-05",
+      "linear_rmse": "0.00032478636067161234",
+      "sdc_reduction_log10_mae_pct": "82.61684524651213",
+      "sdc_reduction_linear_mae_pct": "50.39910505232824",
+      "sdc_reduction_linear_rmse_pct": "40.717480465748345"
+    },
+    {
+      "model": "signed_asinh",
+      "log10_mae": "0.10312480227808474",
+      "linear_mae": "5.569468236023793e-05",
+      "linear_rmse": "0.0002731328174218984",
+      "sdc_reduction_log10_mae_pct": "61.304916415585744",
+      "sdc_reduction_linear_mae_pct": "34.588898052376784",
+      "sdc_reduction_linear_rmse_pct": "29.50626016780633"
+    },
+    {
+      "model": "adair",
+      "log10_mae": "0.1289437441815775",
+      "linear_mae": "5.853378413528402e-05",
+      "linear_rmse": "0.0002730519863540996",
+      "sdc_reduction_log10_mae_pct": "69.05299385321553",
+      "sdc_reduction_linear_mae_pct": "37.761574796084396",
+      "sdc_reduction_linear_rmse_pct": "29.4853920381148"
+    },
+    {
+      "model": "promptir",
+      "log10_mae": "0.1434691855433126",
+      "linear_mae": "6.387220529560139e-05",
+      "linear_rmse": "0.0002890071783383462",
+      "sdc_reduction_log10_mae_pct": "72.18620271199633",
+      "sdc_reduction_linear_mae_pct": "42.96344507057598",
+      "sdc_reduction_linear_rmse_pct": "33.378285336455704"
+    },
+    {
+      "model": "datprl",
+      "log10_mae": "0.13536775898832493",
+      "linear_mae": "6.0459601766794874e-05",
+      "linear_rmse": "0.00027877397518853996",
+      "sdc_reduction_log10_mae_pct": "70.52161553386694",
+      "sdc_reduction_linear_mae_pct": "39.74405322982424",
+      "sdc_reduction_linear_rmse_pct": "30.932743065591318"
+    },
+    {
+      "model": "logunet_m",
+      "log10_mae": "0.14323233968883595",
+      "linear_mae": "6.231258381869541e-05",
+      "linear_rmse": "0.0002963072033150566",
+      "sdc_reduction_log10_mae_pct": "72.14021042701914",
+      "sdc_reduction_linear_mae_pct": "41.53587730520323",
+      "sdc_reduction_linear_rmse_pct": "35.01962302785848"
+    },
+    {
+      "model": "gauss_logunet",
+      "log10_mae": "0.15967526285408665",
+      "linear_mae": "6.580415567075367e-05",
+      "linear_rmse": "0.000313362527927761",
+      "sdc_reduction_log10_mae_pct": "75.00913558900363",
+      "sdc_reduction_linear_mae_pct": "44.6379866336443",
+      "sdc_reduction_linear_rmse_pct": "38.556298041442936"
+    }
+  ],
+  "paired_seed_display": [
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.04018311167053445",
+      "sample_sd": "0.0003192875282992055",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "representation": "fullrange",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.045896615062062704",
+      "sample_sd": "0.0006236949339308976",
+      "sdc_reduction_pct": "12.448637843558386"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "representation": "physical_clip",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.24287331991754932",
+      "sample_sd": "0.011006052171267964",
+      "sdc_reduction_pct": "83.45511491991965"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "representation": "physical_null",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.23366155321131307",
+      "sample_sd": "0.01428760239088778",
+      "sdc_reduction_pct": "82.80285690209607"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "representation": "signed_asinh",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.10538991733450949",
+      "sample_sd": "0.008155443474325204",
+      "sdc_reduction_pct": "61.8719582604923"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "3.411529480111134e-05",
+      "sample_sd": "2.244985148697352e-06",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "representation": "fullrange",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "3.5141330160757276e-05",
+      "sample_sd": "2.6141984595180313e-06",
+      "sdc_reduction_pct": "2.919739676763067"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "representation": "physical_clip",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "7.47871181457113e-05",
+      "sample_sd": "1.2826260248941345e-06",
+      "sdc_reduction_pct": "54.38346115350656"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "representation": "physical_null",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "7.387183888253086e-05",
+      "sample_sd": "7.819724752982572e-07",
+      "sdc_reduction_pct": "53.818267803837095"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "representation": "signed_asinh",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "5.762621635591288e-05",
+      "sample_sd": "3.7518868885728796e-06",
+      "sdc_reduction_pct": "40.799002678906824"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "representation": "physical_sdc",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.00019006875757319192",
+      "sample_sd": "2.761933670310487e-06",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "representation": "fullrange",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.0001996572043281264",
+      "sample_sd": "6.974751057498576e-06",
+      "sdc_reduction_pct": "4.802454680862079"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "representation": "physical_clip",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.0003250382084403379",
+      "sample_sd": "3.7633859970206953e-06",
+      "sdc_reduction_pct": "41.52418003864311"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "representation": "physical_null",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.0003250222106359357",
+      "sample_sd": "5.078906539046405e-07",
+      "sdc_reduction_pct": "41.52130182078787"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "representation": "signed_asinh",
+      "seeds": "20260718,20260710,20260714",
+      "mean": "0.0002712240777113907",
+      "sample_sd": "6.75185178732359e-06",
+      "sdc_reduction_pct": "29.921871547317448"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "log10_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "0.04822603423851928",
+      "sample_sd": "0.0017019628694743673",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "log10_mae",
+      "representation": "fullrange",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "0.05438660847177791",
+      "sample_sd": "0.0007415114780114166",
+      "sdc_reduction_pct": "11.327373422182507"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "3.680914422900318e-05",
+      "sample_sd": "1.5475852699723005e-06",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_mae",
+      "representation": "fullrange",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "3.899935904889247e-05",
+      "sample_sd": "2.5228768748001863e-06",
+      "sdc_reduction_pct": "5.616027733028838"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_rmse",
+      "representation": "physical_sdc",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "0.00021163538895760078",
+      "sample_sd": "2.2200174715134712e-06",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_rmse",
+      "representation": "fullrange",
+      "seeds": "20260713,20260714,20260715",
+      "mean": "0.00021397324485414491",
+      "sample_sd": "2.7253854927123667e-06",
+      "sdc_reduction_pct": "1.092592626773381"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "log10_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260710",
+      "mean": "0.059162326985566074",
+      "sample_sd": "",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "log10_mae",
+      "representation": "fullrange",
+      "seeds": "20260710",
+      "mean": "0.06665038288106363",
+      "sample_sd": "",
+      "sdc_reduction_pct": "11.234828026209321"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_mae",
+      "representation": "physical_sdc",
+      "seeds": "20260710",
+      "mean": "3.907013882505174e-05",
+      "sample_sd": "",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_mae",
+      "representation": "fullrange",
+      "seeds": "20260710",
+      "mean": "4.013480499440914e-05",
+      "sample_sd": "",
+      "sdc_reduction_pct": "2.6527254075501716"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_rmse",
+      "representation": "physical_sdc",
+      "seeds": "20260710",
+      "mean": "0.0002391351325889138",
+      "sample_sd": "",
+      "sdc_reduction_pct": "0.0"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_rmse",
+      "representation": "fullrange",
+      "seeds": "20260710",
+      "mean": "0.00024149781825340651",
+      "sample_sd": "",
+      "sdc_reduction_pct": "0.9783465877996167"
+    }
+  ],
+  "paired_seed_intervals": [
+    {
+      "backbone": "AdaIR",
+      "metric": "log10_mae",
+      "mean_sdc_minus_rawlog": "-0.005713503391528257",
+      "descriptive_95_lo": "-0.010837085154531705",
+      "descriptive_95_hi": "-0.0017469292105821077"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_mae",
+      "mean_sdc_minus_rawlog": "-1.0260353596459338e-06",
+      "descriptive_95_lo": "-2.462326643832388e-06",
+      "descriptive_95_hi": "-1.0517671602319829e-07"
+    },
+    {
+      "backbone": "AdaIR",
+      "metric": "linear_rmse",
+      "mean_sdc_minus_rawlog": "-9.588446754934456e-06",
+      "descriptive_95_lo": "-2.2474680644211496e-05",
+      "descriptive_95_hi": "7.313344100851716e-07"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "log10_mae",
+      "mean_sdc_minus_rawlog": "-0.006160574233258631",
+      "descriptive_95_lo": "-0.008388323257419377",
+      "descriptive_95_hi": "-0.0039328252090978875"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_mae",
+      "mean_sdc_minus_rawlog": "-2.190214819889289e-06",
+      "descriptive_95_lo": "-5.96242810073741e-06",
+      "descriptive_95_hi": "-2.703319353882022e-07"
+    },
+    {
+      "backbone": "LogUNet",
+      "metric": "linear_rmse",
+      "mean_sdc_minus_rawlog": "-2.3378558965441287e-06",
+      "descriptive_95_lo": "-3.1828687995910126e-06",
+      "descriptive_95_hi": "-1.4928429934972447e-06"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "log10_mae",
+      "mean_sdc_minus_rawlog": "-0.007488055895497558",
+      "descriptive_95_lo": "-0.01739334695023834",
+      "descriptive_95_hi": "-0.0010464690581831358"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_mae",
+      "mean_sdc_minus_rawlog": "-1.0646661693574057e-06",
+      "descriptive_95_lo": "-1.8807796281257315e-06",
+      "descriptive_95_hi": "-2.485527105890801e-07"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "metric": "linear_rmse",
+      "mean_sdc_minus_rawlog": "-2.3626856644927385e-06",
+      "descriptive_95_lo": "-1.351662808560492e-05",
+      "descriptive_95_hi": "8.791256756619442e-06"
+    }
+  ],
+  "representation_ablation": [
+    {
+      "model": "physical_sdc",
+      "log10_mae": "0.03068774034731582",
+      "linear_mae": "1.8686736436202043e-05",
+      "linear_rmse": "0.00015933844631631992",
+      "sdc_reduction_log10_mae_pct": "0.0",
+      "sdc_reduction_linear_mae_pct": "0.0",
+      "sdc_reduction_linear_rmse_pct": "0.0"
+    },
+    {
+      "model": "fullrange",
+      "log10_mae": "0.0349417409794825",
+      "linear_mae": "1.852134480276424e-05",
+      "linear_rmse": "0.0001611847889651636",
+      "sdc_reduction_log10_mae_pct": "12.17455259216933",
+      "sdc_reduction_linear_mae_pct": "-0.8929785347612462",
+      "sdc_reduction_linear_rmse_pct": "1.145481940757287"
+    },
+    {
+      "model": "physical_clip",
+      "log10_mae": "0.19593354147625772",
+      "linear_mae": "4.228148584042881e-05",
+      "linear_rmse": "0.00023905776349325347",
+      "sdc_reduction_log10_mae_pct": "84.33767893128477",
+      "sdc_reduction_linear_mae_pct": "55.803974092286715",
+      "sdc_reduction_linear_rmse_pct": "33.34730318397852"
+    },
+    {
+      "model": "physical_null",
+      "log10_mae": "0.2004143563029761",
+      "linear_mae": "4.31579456410912e-05",
+      "linear_rmse": "0.00024538128867905795",
+      "sdc_reduction_log10_mae_pct": "84.68785324893409",
+      "sdc_reduction_linear_mae_pct": "56.70151542521483",
+      "sdc_reduction_linear_rmse_pct": "35.06495659303356"
+    },
+    {
+      "model": "signed_asinh",
+      "log10_mae": "0.09017461659707628",
+      "linear_mae": "3.1903183953557874e-05",
+      "linear_rmse": "0.00021318264230866672",
+      "sdc_reduction_log10_mae_pct": "65.968538037221",
+      "sdc_reduction_linear_mae_pct": "41.426735139023386",
+      "sdc_reduction_linear_rmse_pct": "25.25730772882808"
+    }
+  ],
+  "validation_event_reductions": [
+    {
+      "event": "E04",
+      "wavelength_nm": "355",
+      "reduction_percent": "-13.625270353426266"
+    },
+    {
+      "event": "E04",
+      "wavelength_nm": "532",
+      "reduction_percent": "12.757751517341475"
+    },
+    {
+      "event": "E16",
+      "wavelength_nm": "355",
+      "reduction_percent": "5.529762200030852"
+    },
+    {
+      "event": "E16",
+      "wavelength_nm": "532",
+      "reduction_percent": "30.289209457385624"
+    },
+    {
+      "event": "E28",
+      "wavelength_nm": "355",
+      "reduction_percent": "1.1219240279893739"
+    },
+    {
+      "event": "E28",
+      "wavelength_nm": "532",
+      "reduction_percent": "1.3141460428260698"
+    },
+    {
+      "event": "E40",
+      "wavelength_nm": "355",
+      "reduction_percent": "25.301004782246295"
+    },
+    {
+      "event": "E40",
+      "wavelength_nm": "532",
+      "reduction_percent": "25.93209666371229"
+    }
+  ],
+  "reported_seed_event_scores": [
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.014642706137359457",
+      "linear_mae": "7.636394222432048e-06",
+      "linear_rmse": "7.84744322869895e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.021669603654568787",
+      "linear_mae": "9.139716589426691e-06",
+      "linear_rmse": "8.924881431177266e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03454102323017423",
+      "linear_mae": "5.418761550059552e-06",
+      "linear_rmse": "0.00015480061751357518"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03677567452728433",
+      "linear_mae": "5.325473317063091e-06",
+      "linear_rmse": "0.0001570893186285647"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.012516793934251896",
+      "linear_mae": "1.431792031199962e-06",
+      "linear_rmse": "2.8625748166783034e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.012606919846711336",
+      "linear_mae": "1.3578723768688857e-06",
+      "linear_rmse": "3.081216425692432e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09832926301703881",
+      "linear_mae": "0.00012598048178626904",
+      "linear_rmse": "0.0005289819271382697"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.13238117908094296",
+      "linear_mae": "0.00014478551689880314",
+      "linear_rmse": "0.0005628944113408589"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10480260336739676",
+      "linear_mae": "3.631509581418146e-05",
+      "linear_rmse": "0.00023752181809252493"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1510589094616118",
+      "linear_mae": "3.715980461707447e-05",
+      "linear_rmse": "0.00024045423759662252"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0214547620551296",
+      "linear_mae": "8.610943788428491e-06",
+      "linear_rmse": "0.00019821292466489296"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.042874330690171984",
+      "linear_mae": "9.059809788042488e-06",
+      "linear_rmse": "0.00019893054137638526"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.13116679559939753",
+      "linear_mae": "1.3370424889461704e-05",
+      "linear_rmse": "8.061450254233756e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1869549072265625",
+      "linear_mae": "1.385032810448181e-05",
+      "linear_rmse": "8.33920841751511e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.5315017903645833",
+      "linear_mae": "0.0002343828065606652",
+      "linear_rmse": "0.0007663523505622678"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.6728726153661334",
+      "linear_mae": "0.00023431918381383178",
+      "linear_rmse": "0.0007655444737082544"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10748315885836485",
+      "linear_mae": "3.687522608106808e-05",
+      "linear_rmse": "0.00023457509639473917"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15022503989083427",
+      "linear_mae": "3.7254423686308124e-05",
+      "linear_rmse": "0.00023423339809371037"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.032845955355205236",
+      "linear_mae": "9.042938937902422e-06",
+      "linear_rmse": "0.00021476040718028454"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04218665170417261",
+      "linear_mae": "9.159513577523521e-06",
+      "linear_rmse": "0.00021177895408453176"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10409102096153945",
+      "linear_mae": "1.0244633875314205e-05",
+      "linear_rmse": "7.914569806756193e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15276570524992766",
+      "linear_mae": "1.1035472841529303e-05",
+      "linear_rmse": "8.191054504224953e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.5551897551682891",
+      "linear_mae": "0.0002374043484844228",
+      "linear_rmse": "0.0007713429912600688"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.6916677868716932",
+      "linear_mae": "0.00023656163837701554",
+      "linear_rmse": "0.0007705437952497527"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.013067117048192908",
+      "linear_mae": "6.072485087951892e-06",
+      "linear_rmse": "6.33896985805708e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.01979726107259276",
+      "linear_mae": "7.001953554079774e-06",
+      "linear_rmse": "7.056728926026636e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.021908311038547092",
+      "linear_mae": "5.275780646433492e-06",
+      "linear_rmse": "0.00016089156125116105"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.023748093846235326",
+      "linear_mae": "5.424988429992467e-06",
+      "linear_rmse": "0.00016522976910013585"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.010463013748895555",
+      "linear_mae": "1.318841107514879e-06",
+      "linear_rmse": "2.4701963877799705e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.011125230880010696",
+      "linear_mae": "1.3624868573739178e-06",
+      "linear_rmse": "2.6593732200586018e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09366886110658999",
+      "linear_mae": "0.00012075969190410679",
+      "linear_rmse": "0.0004920193300752358"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.12545593876107028",
+      "linear_mae": "0.00014422781607702808",
+      "linear_rmse": "0.0005369389573321133"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03742881278386192",
+      "linear_mae": "2.1727245397959396e-05",
+      "linear_rmse": "0.00016780624837870736"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.05361575449383448",
+      "linear_mae": "2.3432750958658598e-05",
+      "linear_rmse": "0.00017762138171017338"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.037116597868904234",
+      "linear_mae": "6.423055626040512e-06",
+      "linear_rmse": "0.00018080479395627847"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04007577809328755",
+      "linear_mae": "6.571500637924555e-06",
+      "linear_rmse": "0.00018465269533430258"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.01280472547339384",
+      "linear_mae": "1.6765860660819623e-06",
+      "linear_rmse": "3.65523796768546e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.01744263679867699",
+      "linear_mae": "1.8105547132325315e-06",
+      "linear_rmse": "3.9541725600303854e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.26676344913301014",
+      "linear_mae": "0.0001888136141100731",
+      "linear_rmse": "0.0006935565918059334"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.3597506635797087",
+      "linear_mae": "0.00019510215137193284",
+      "linear_rmse": "0.0007045267229126335"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.014712751071667545",
+      "linear_mae": "5.8879075096994044e-06",
+      "linear_rmse": "6.078470722659925e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.02128217402059565",
+      "linear_mae": "6.677896296297491e-06",
+      "linear_rmse": "6.715319784618709e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0347131262239325",
+      "linear_mae": "5.631623027548096e-06",
+      "linear_rmse": "0.00016320698368503273"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03914835848127093",
+      "linear_mae": "5.652759418217342e-06",
+      "linear_rmse": "0.00016532740852506528"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.01714539006349271",
+      "linear_mae": "1.839483289353589e-06",
+      "linear_rmse": "2.5568454696617147e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.020248797534760974",
+      "linear_mae": "1.960393936230392e-06",
+      "linear_rmse": "2.7083719446489256e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09321889895282726",
+      "linear_mae": "0.0001097799990126597",
+      "linear_rmse": "0.0005018857768049215"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.12474071436079721",
+      "linear_mae": "0.00012193743762456709",
+      "linear_rmse": "0.0005218396351347103"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10853070513609225",
+      "linear_mae": "3.752336865475786e-05",
+      "linear_rmse": "0.0002463589290566608"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.14666018762336205",
+      "linear_mae": "3.7905137744121174e-05",
+      "linear_rmse": "0.00024757784256863023"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.04076080714634486",
+      "linear_mae": "9.25226484221485e-06",
+      "linear_rmse": "0.0002187825780797439"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.050630450754317026",
+      "linear_mae": "9.122661026769068e-06",
+      "linear_rmse": "0.00021121833853445613"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09859913653822804",
+      "linear_mae": "8.592641428507194e-06",
+      "linear_rmse": "7.784309183942354e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15258693297048095",
+      "linear_mae": "9.7543772290308e-06",
+      "linear_rmse": "7.999517820618749e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.6062442574960214",
+      "linear_mae": "0.00024397301993199757",
+      "linear_rmse": "0.000774452647488059"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.8035281560988653",
+      "linear_mae": "0.00024451237415313405",
+      "linear_rmse": "0.0007749458081203139"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.11279429461363132",
+      "linear_mae": "3.769465274000097e-05",
+      "linear_rmse": "0.00023772158768928036"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15702724467282572",
+      "linear_mae": "3.8764173334720665e-05",
+      "linear_rmse": "0.00024407785128483585"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.044108458867148745",
+      "linear_mae": "9.724538172927818e-06",
+      "linear_rmse": "0.0002218906518627343"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.053719237897761916",
+      "linear_mae": "9.970055220541779e-06",
+      "linear_rmse": "0.0002211414049433394"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09004731002888351",
+      "linear_mae": "9.840859582637825e-06",
+      "linear_rmse": "8.271578929916346e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.12677192466776208",
+      "linear_mae": "1.0842672569884194e-05",
+      "linear_rmse": "8.496304042572248e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.6143534565274678",
+      "linear_mae": "0.00024130884061651254",
+      "linear_rmse": "0.000753810741511775"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.7975958068524719",
+      "linear_mae": "0.00024004827634130837",
+      "linear_rmse": "0.0007510799404055508"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.016388785417748505",
+      "linear_mae": "6.395304301124135e-06",
+      "linear_rmse": "5.870439629688848e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.021143451026633935",
+      "linear_mae": "7.435800467011711e-06",
+      "linear_rmse": "6.543904184039906e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.027791800960157282",
+      "linear_mae": "5.365855509363529e-06",
+      "linear_rmse": "0.00016340075982254436"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.022518883647615947",
+      "linear_mae": "5.4386212037541785e-06",
+      "linear_rmse": "0.000167079083994246"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.011651464316958474",
+      "linear_mae": "1.5312834472824184e-06",
+      "linear_rmse": "2.7345715874155172e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.010699515470878157",
+      "linear_mae": "1.4678007270155288e-06",
+      "linear_rmse": "2.9768053628981908e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.09072015185280452",
+      "linear_mae": "0.00011421563936096848",
+      "linear_rmse": "0.0004916949270094948"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1199956825821488",
+      "linear_mae": "0.0001298900543583961",
+      "linear_rmse": "0.0005211807054921975"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03425823990554406",
+      "linear_mae": "1.8272156608857647e-05",
+      "linear_rmse": "0.00014330873567857587"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04779145986062509",
+      "linear_mae": "2.0203463427529044e-05",
+      "linear_rmse": "0.00015312173873274334"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.034350174632400435",
+      "linear_mae": "6.515277295666575e-06",
+      "linear_rmse": "0.0001767264694391167"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03732520878706029",
+      "linear_mae": "6.533814670489399e-06",
+      "linear_rmse": "0.0001783702627742085"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.01437160803981559",
+      "linear_mae": "1.9289439917349865e-06",
+      "linear_rmse": "3.9957153942377756e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.016012687075579606",
+      "linear_mae": "1.9877158534077424e-06",
+      "linear_rmse": "4.3231824345752724e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.25373777282957044",
+      "linear_mae": "0.0001879476041478849",
+      "linear_rmse": "0.0006764215102850373"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.35100457571524163",
+      "linear_mae": "0.00019848006365465976",
+      "linear_rmse": "0.0006986489606516789"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.021196806793616563",
+      "linear_mae": "7.521863646248464e-06",
+      "linear_rmse": "7.23718945240472e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.020411202287421656",
+      "linear_mae": "7.871893163161874e-06",
+      "linear_rmse": "8.043841711217027e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0445786865960984",
+      "linear_mae": "6.081800244590908e-06",
+      "linear_rmse": "0.00016586330888974747"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03794934910365513",
+      "linear_mae": "5.840885500878184e-06",
+      "linear_rmse": "0.00016709636603125098"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.015987070475179683",
+      "linear_mae": "1.8371013286351054e-06",
+      "linear_rmse": "2.727778960032291e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.012788614069217096",
+      "linear_mae": "1.4474854285942105e-06",
+      "linear_rmse": "2.864466508250014e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0943660055816489",
+      "linear_mae": "0.000115644887635711",
+      "linear_rmse": "0.0005150824333201891"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "fullrange",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.12556765244499085",
+      "linear_mae": "0.0001367024980236594",
+      "linear_rmse": "0.0005712207123054446"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0932021577885542",
+      "linear_mae": "3.566304219371723e-05",
+      "linear_rmse": "0.00023918667051408445"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1312669156069478",
+      "linear_mae": "3.618417601470673e-05",
+      "linear_rmse": "0.00024056070852083723"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.02596993526478924",
+      "linear_mae": "9.527251920333285e-06",
+      "linear_rmse": "0.00020460649751917522"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.044233417075020924",
+      "linear_mae": "1.011260346795627e-05",
+      "linear_rmse": "0.00020542649806861444"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10552485241763807",
+      "linear_mae": "1.0047343973484304e-05",
+      "linear_rmse": "7.557430913909158e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1522496070498512",
+      "linear_mae": "1.064393696567369e-05",
+      "linear_rmse": "7.834175123171627e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.6055262082700377",
+      "linear_mae": "0.00024667563000841747",
+      "linear_rmse": "0.0007769307604971939"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_clip",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.8207592366536458",
+      "linear_mae": "0.0002483326085660823",
+      "linear_rmse": "0.0007780924604654853"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.11455006182635272",
+      "linear_mae": "3.898245153859967e-05",
+      "linear_rmse": "0.00025373327122317035"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15609676868902944",
+      "linear_mae": "3.844570516234155e-05",
+      "linear_rmse": "0.0002471428912584477"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03800909233698769",
+      "linear_mae": "1.0076160959513838e-05",
+      "linear_rmse": "0.00022450984517526583"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.06867987930862991",
+      "linear_mae": "1.0539471805974947e-05",
+      "linear_rmse": "0.0002209102233851831"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.08611044801580843",
+      "linear_mae": "8.263797404628898e-06",
+      "linear_rmse": "7.863777127689629e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1257318196776052",
+      "linear_mae": "9.17114075371828e-06",
+      "linear_rmse": "8.177344442985478e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.5182073491495123",
+      "linear_mae": "0.00023544396677266353",
+      "linear_rmse": "0.000749894610803471"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_null",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.667619049879609",
+      "linear_mae": "0.00023622917434368184",
+      "linear_rmse": "0.0007482391049148662"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.014667171079645712",
+      "linear_mae": "6.425755616541085e-06",
+      "linear_rmse": "6.195535948081877e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.020539667710803802",
+      "linear_mae": "7.3875933262228806e-06",
+      "linear_rmse": "6.84112641329999e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.02712805627086175",
+      "linear_mae": "5.591879483674549e-06",
+      "linear_rmse": "0.00016248558916823056"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.022131511135202238",
+      "linear_mae": "5.796185227830262e-06",
+      "linear_rmse": "0.00016578262434813738"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.015158061537162336",
+      "linear_mae": "1.7905741767396056e-06",
+      "linear_rmse": "2.759934035857814e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.019544940052335223",
+      "linear_mae": "2.1990140399861113e-06",
+      "linear_rmse": "2.929436381933907e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0876096727946448",
+      "linear_mae": "0.00010453089615675035",
+      "linear_rmse": "0.00047445450287028087"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "physical_sdc",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.11747203673509063",
+      "linear_mae": "0.00012186077415953001",
+      "linear_rmse": "0.0005067221519414455"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.034951527057627524",
+      "linear_mae": "1.849610485591083e-05",
+      "linear_rmse": "0.0001415842920071167"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.051030329600339215",
+      "linear_mae": "2.0966106188722527e-05",
+      "linear_rmse": "0.0001550456730681597"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.036950898799189814",
+      "linear_mae": "6.722361627084119e-06",
+      "linear_rmse": "0.0001797572369870866"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.038077908983180135",
+      "linear_mae": "6.800395518876415e-06",
+      "linear_rmse": "0.0001802201208606276"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.017316701872891218",
+      "linear_mae": "2.348648163455504e-06",
+      "linear_rmse": "4.067565213288251e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.021750329343604033",
+      "linear_mae": "2.5066217109462413e-06",
+      "linear_rmse": "4.4889778255477095e-05"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.3039868469924523",
+      "linear_mae": "0.00021404188512356352",
+      "linear_rmse": "0.0007312525293521306"
+    },
+    {
+      "backbone": "AdaIR",
+      "representation": "signed_asinh",
+      "seed": "20260718",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.4114433283084284",
+      "linear_mae": "0.0002237205708212165",
+      "linear_rmse": "0.0007411033871852173"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.021171423311586734",
+      "linear_mae": "8.295400717009904e-06",
+      "linear_rmse": "7.277456222580315e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.030994682820638022",
+      "linear_mae": "8.99870415303176e-06",
+      "linear_rmse": "7.747807629752721e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03173296058695153",
+      "linear_mae": "5.991833691519719e-06",
+      "linear_rmse": "0.0001710630092815652"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.031266752717356204",
+      "linear_mae": "5.941006116390108e-06",
+      "linear_rmse": "0.00017054596364231444"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.016588412174850544",
+      "linear_mae": "1.9039505417581904e-06",
+      "linear_rmse": "3.491522501842061e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.02135620250802822",
+      "linear_mae": "2.109333498295022e-06",
+      "linear_rmse": "3.6515647627816214e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.12520568370314503",
+      "linear_mae": "0.00012987503477460927",
+      "linear_rmse": "0.0005540769675990684"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260713",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15907853098067026",
+      "linear_mae": "0.0001482516537592919",
+      "linear_rmse": "0.0005883132528636161"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.019935597988915824",
+      "linear_mae": "7.943390447845949e-06",
+      "linear_rmse": "7.110535483704955e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.02837335302362997",
+      "linear_mae": "8.84096870277688e-06",
+      "linear_rmse": "7.956152009488958e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.021977091059609065",
+      "linear_mae": "5.771426257379254e-06",
+      "linear_rmse": "0.00016200029093207483"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.02142405634885112",
+      "linear_mae": "5.927225798507814e-06",
+      "linear_rmse": "0.000166635429004125"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.01557164059593564",
+      "linear_mae": "1.918141257323364e-06",
+      "linear_rmse": "3.492851960231863e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.016198883496642745",
+      "linear_mae": "1.9429603707360686e-06",
+      "linear_rmse": "3.705000529778369e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10943524641814055",
+      "linear_mae": "0.00012236375453187124",
+      "linear_rmse": "0.0005415220783465701"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260713",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.14541250271671033",
+      "linear_mae": "0.00013999243029516446",
+      "linear_rmse": "0.0005798994950339328"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.025684572742603443",
+      "linear_mae": "9.823019803063107e-06",
+      "linear_rmse": "8.574903853088223e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03611113237855296",
+      "linear_mae": "1.0576658360826384e-05",
+      "linear_rmse": "8.902155835256611e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.04084290410601903",
+      "linear_mae": "6.443102950742715e-06",
+      "linear_rmse": "0.00017048914886219084"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04127760703273551",
+      "linear_mae": "6.4012064337952154e-06",
+      "linear_rmse": "0.00017367342239577786"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.017193825450271524",
+      "linear_mae": "2.0532146758996147e-06",
+      "linear_rmse": "3.9083400277614865e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.01936913628149285",
+      "linear_mae": "1.990327913383091e-06",
+      "linear_rmse": "3.9699595433539253e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.11056009296639256",
+      "linear_mae": "0.00012510826081116362",
+      "linear_rmse": "0.0005403276001598187"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.13731557228855354",
+      "linear_mae": "0.00012973737194345742",
+      "linear_rmse": "0.0005556411109086585"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.019966991978599913",
+      "linear_mae": "8.176041269649027e-06",
+      "linear_rmse": "7.251656903203466e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.02965280362689306",
+      "linear_mae": "9.69638483415274e-06",
+      "linear_rmse": "8.181818529728168e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.02460990177538029",
+      "linear_mae": "5.943152445144262e-06",
+      "linear_rmse": "0.00017350114245250366"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.025756184847392734",
+      "linear_mae": "5.987291155190813e-06",
+      "linear_rmse": "0.0001777787095722449"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.01057477515084403",
+      "linear_mae": "1.563255043291344e-06",
+      "linear_rmse": "3.40675015942028e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.01499268561469184",
+      "linear_mae": "1.7536425801664196e-06",
+      "linear_rmse": "3.5581722405046695e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10659641287667411",
+      "linear_mae": "0.00011846679180870374",
+      "linear_rmse": "0.0005458616320217566"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260714",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.14542242375933934",
+      "linear_mae": "0.00013039390346646388",
+      "linear_rmse": "0.0005801726444572421"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.02452740821636543",
+      "linear_mae": "9.099354876991283e-06",
+      "linear_rmse": "7.376026020714794e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03683789773365808",
+      "linear_mae": "1.0094686052035147e-05",
+      "linear_rmse": "8.310218186075923e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.03551854038541279",
+      "linear_mae": "6.292404518795332e-06",
+      "linear_rmse": "0.00017518954798840915"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.037441169980972536",
+      "linear_mae": "6.61608915257535e-06",
+      "linear_rmse": "0.00018312388233195299"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.017447335486437277",
+      "linear_mae": "2.1376606749577653e-06",
+      "linear_rmse": "3.626053955841836e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.01936793485369001",
+      "linear_mae": "2.066754393782171e-06",
+      "linear_rmse": "3.778604130190733e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.11814280114552331",
+      "linear_mae": "0.0001461210564173088",
+      "linear_rmse": "0.0005684254740055986"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "fullrange",
+      "seed": "20260715",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.15024602347076255",
+      "linear_mae": "0.0001500565309427363",
+      "linear_rmse": "0.0005783423697681045"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.021519097062771914",
+      "linear_mae": "9.519982829790996e-06",
+      "linear_rmse": "8.050110880286396e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03087359521452081",
+      "linear_mae": "1.049069406343969e-05",
+      "linear_rmse": "8.8161293308347e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.032753384363083615",
+      "linear_mae": "5.973522952467045e-06",
+      "linear_rmse": "0.00017006564471518695"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.03433843188411975",
+      "linear_mae": "6.287181749578045e-06",
+      "linear_rmse": "0.0001756078274600714"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.014333630147055973",
+      "linear_mae": "1.7632215636136829e-06",
+      "linear_rmse": "3.5507906342166564e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.017463007548498728",
+      "linear_mae": "1.8718801638377564e-06",
+      "linear_rmse": "3.743232415645077e-05"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.10684490891915781",
+      "linear_mae": "0.00012725561238362124",
+      "linear_rmse": "0.0005394953582293413"
+    },
+    {
+      "backbone": "LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260715",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1433982153070036",
+      "linear_mae": "0.00014357660552536053",
+      "linear_rmse": "0.0005784770719869334"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.031890786396006426",
+      "linear_mae": "1.4690154281853841e-05",
+      "linear_rmse": "0.00010957971106933772"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04555467836087343",
+      "linear_mae": "1.6485698689292703e-05",
+      "linear_rmse": "0.00011934095422524706"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.02610084351635484",
+      "linear_mae": "7.955969687798873e-06",
+      "linear_rmse": "0.00021204051185262507"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.023538805839498207",
+      "linear_mae": "8.151999357626968e-06",
+      "linear_rmse": "0.00021721186134556164"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.022155418307188326",
+      "linear_mae": "2.462910264533348e-06",
+      "linear_rmse": "4.7459232308698503e-05"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.026003219055498718",
+      "linear_mae": "2.5277237104813733e-06",
+      "linear_rmse": "4.952657753119437e-05"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.13038714016303815",
+      "linear_mae": "0.00012630419414687568",
+      "linear_rmse": "0.0005728898309960678"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "physical_sdc",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1676677242460705",
+      "linear_mae": "0.0001339824604619511",
+      "linear_rmse": "0.0005850323813825782"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.037982135582979394",
+      "linear_mae": "1.715391453271781e-05",
+      "linear_rmse": "0.00013641838087931224"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E02",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.04911574271065848",
+      "linear_mae": "1.716461512728264e-05",
+      "linear_rmse": "0.0001337896274895892"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.04694160902235243",
+      "linear_mae": "8.287627093319008e-06",
+      "linear_rmse": "0.0002058447884287552"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E14",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.046931967808960605",
+      "linear_mae": "7.93522313910428e-06",
+      "linear_rmse": "0.00020559674758710512"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.0234325679960705",
+      "linear_mae": "3.052575647752121e-06",
+      "linear_rmse": "5.651480749450421e-05"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E26",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.024299182342852235",
+      "linear_mae": "2.8173879826214737e-06",
+      "linear_rmse": "5.3250171613491674e-05"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "355",
+      "count": "15120000",
+      "log10_mae": "0.133747910506637",
+      "linear_mae": "0.00012972286184165607",
+      "linear_rmse": "0.000558540716988966"
+    },
+    {
+      "backbone": "Gaussian-LogUNet",
+      "representation": "fullrange",
+      "seed": "20260710",
+      "event": "E48",
+      "wavelength_nm": "532",
+      "count": "15120000",
+      "log10_mae": "0.1707519470779984",
+      "linear_mae": "0.00013494423459081974",
+      "linear_rmse": "0.0005820273055455286"
+    }
+  ],
+  "cosp_same_input_check": {
+    "input_date_fields": {
+      "year": [
+        2007.0,
+        2007.0,
+        2007.0,
+        2007.0,
+        2007.0,
+        2007.0
+      ],
+      "month": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "day": [
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0
+      ],
+      "hour": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ]
+    },
+    "source_dims": {
+      "point": 1236,
+      "level": 50,
+      "hydro": 9
+    },
+    "subset_dims": {
+      "point": 6,
+      "level": 50,
+      "hydro": 9
+    },
+    "selection": {
+      "rule": "fixed first six existing point-mode columns before output",
+      "point_start": 0,
+      "point_stop": 6
+    },
+    "input_height_unit": "m",
+    "branches_use_identical_input": true,
+    "namelists_differ_only_in_output_filename": true,
+    "output_dims": {
+      "loc": 6,
+      "tau7": 7,
+      "bnds": 2,
+      "pres7": 7,
+      "hgt16": 16,
+      "lev": 50,
+      "levStat": 50,
+      "cosp_scol": 1,
+      "SR_BINS": 15
+    },
+    "coordinates_equal": {
+      "longitude": true,
+      "latitude": true,
+      "lev": true
+    },
+    "metrics": {
+      "atb355": {
+        "shape": [
+          50,
+          1,
+          6
+        ],
+        "dims": [
+          "lev",
+          "cosp_scol",
+          "loc"
+        ],
+        "atb_units": "m-1 sr-1",
+        "bc_inherited_units": "m-1 sr-1",
+        "common_finite_cells": 300,
+        "total_cells": 300,
+        "atb_min": 0.0,
+        "atb_max": 4.0451199311064556e-05,
+        "bc_min": 1.401944116352638e-09,
+        "bc_max": 0.004583975300192833,
+        "atb_gt_bc_cells": 0,
+        "different_cells": 300
+      },
+      "atb532": {
+        "shape": [
+          50,
+          1,
+          6
+        ],
+        "dims": [
+          "lev",
+          "cosp_scol",
+          "loc"
+        ],
+        "atb_units": "m-1 sr-1",
+        "bc_inherited_units": "m-1 sr-1",
+        "common_finite_cells": 300,
+        "total_cells": 300,
+        "atb_min": 0.0,
+        "atb_max": 7.310076034627855e-05,
+        "bc_min": 2.6803564923127965e-10,
+        "bc_max": 0.0045784637331962585,
+        "atb_gt_bc_cells": 0,
+        "different_cells": 300
+      }
+    },
+    "output_lev_matches_reversed_first_input_height": true
+  }
+}

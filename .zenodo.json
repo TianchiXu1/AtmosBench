@@ -1,0 +1,25 @@
+{
+  "title": "AtmosBench and PhysicalSDC",
+  "description": "Camera-ready software for The Floor Is Not the Limit: Representing Physics-Aligned Weak LiDAR Returns (KDD 2027, AI for Sciences). This source release includes training, retrieval and scoring code, event and pair manifests, WRF–COSP generation tools, reported results and three paper figures. The canonical dataset and trained PhysicalSDC checkpoints are available as versioned assets.",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "1.1.2",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {"name": "Xu, Tianchi"},
+    {"name": "He, Yuanpeng"},
+    {"name": "Xu, Jintao"},
+    {"name": "He, Kang"},
+    {"name": "Li, Linyu"},
+    {"name": "Zhang, Huanyao"},
+    {"name": "Jin, Dongming"},
+    {"name": "Zhou, Bohan", "orcid": "0000-0001-5495-7631"},
+    {"name": "Jiao, Wenpin"},
+    {"name": "Jin, Zhi"}
+  ],
+  "keywords": ["lidar", "atmospheric backscatter", "remote sensing", "inverse problems", "benchmark"],
+  "related_identifiers": [
+    {"identifier": "https://openreview.net/forum?id=5b9wzLyUdE", "relation": "isSupplementTo"}
+  ]
+}

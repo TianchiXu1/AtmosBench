@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+outputs/
+reproduced_results/
+arrays/
+checkpoints/
+tables/
+data/
+code/third_party/PromptIR/
+code/third_party/DATPRL-IR/
+*.npy
+*.npz
+*.pt
+*.pth

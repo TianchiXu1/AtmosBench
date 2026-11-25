@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use AtmosBench or PhysicalSDC, please cite the associated paper."
+title: "AtmosBench and PhysicalSDC"
+type: software
+license: MIT
+version: "1.1.2"
+repository-code: "https://github.com/TianchiXu1/AtmosBench"
+authors:
+  - { family-names: Xu, given-names: Tianchi }
+  - { family-names: He, given-names: Yuanpeng }
+  - { family-names: Xu, given-names: Jintao }
+  - { family-names: He, given-names: Kang }
+  - { family-names: Li, given-names: Linyu }
+  - { family-names: Zhang, given-names: Huanyao }
+  - { family-names: Jin, given-names: Dongming }
+  - { family-names: Zhou, given-names: Bohan, orcid: "https://orcid.org/0000-0001-5495-7631" }
+  - { family-names: Jiao, given-names: Wenpin }
+  - { family-names: Jin, given-names: Zhi }
+preferred-citation:
+  type: conference-paper
+  title: "The Floor Is Not the Limit: Representing Physics-Aligned Weak LiDAR Returns"
+  url: "https://openreview.net/forum?id=5b9wzLyUdE"
+  year: 2027
+  conference:
+    name: "33rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+  authors:
+    - { family-names: Xu, given-names: Tianchi }
+    - { family-names: He, given-names: Yuanpeng }
+    - { family-names: Xu, given-names: Jintao }
+    - { family-names: He, given-names: Kang }
+    - { family-names: Li, given-names: Linyu }
+    - { family-names: Zhang, given-names: Huanyao }
+    - { family-names: Jin, given-names: Dongming }
+    - { family-names: Zhou, given-names: Bohan, orcid: "https://orcid.org/0000-0001-5495-7631" }
+    - { family-names: Jiao, given-names: Wenpin }
+    - { family-names: Jin, given-names: Zhi }

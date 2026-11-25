@@ -1,0 +1,501 @@
+{
+  "bands": [
+    "355",
+    "532"
+  ],
+  "splits": {
+    "validation": [
+      "E04",
+      "E16",
+      "E28",
+      "E40"
+    ],
+    "test": [
+      "E02",
+      "E14",
+      "E26",
+      "E48"
+    ]
+  },
+  "expected_pairs": 3024,
+  "perturbation_seed": 20260929,
+  "sigma": {
+    "status": "frozen_at_input_resolution",
+    "per_band_m_inv_sr_inv": {
+      "355": 3.892764543453934e-7,
+      "532": 3.450207366996376e-7
+    },
+    "unit": "m^-1 sr^-1"
+  },
+  "models": {
+    "adair_physicalsdc_run1": {
+      "file": "adair_physicalsdc_run1.pt",
+      "representation": "physical_sdc",
+      "epoch": 9,
+      "architecture": "adair",
+      "amp": false,
+      "seed": 20260710,
+      "released": true
+    },
+    "adair_rawlog_run1": {
+      "file": "adair_rawlog_run1.pt",
+      "representation": "fullrange",
+      "epoch": 7,
+      "architecture": "adair",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "adair_clip_run1": {
+      "file": "adair_clip_run1.pt",
+      "representation": "physical_clip",
+      "epoch": 5,
+      "architecture": "adair",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "adair_null_run1": {
+      "file": "adair_null_run1.pt",
+      "representation": "physical_null",
+      "epoch": 3,
+      "architecture": "adair",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "adair_asinh_run1": {
+      "file": "adair_asinh_run1.pt",
+      "representation": "signed_asinh",
+      "epoch": 7,
+      "architecture": "adair",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "adair": {
+      "file": "adair.pt",
+      "representation": "default",
+      "epoch": 7,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "released": false
+    },
+    "promptir": {
+      "file": "promptir.pt",
+      "representation": "default",
+      "epoch": 3,
+      "architecture": "promptir",
+      "head": "point",
+      "amp": true,
+      "released": false
+    },
+    "datprl": {
+      "file": "datprl.pt",
+      "representation": "default",
+      "epoch": 7,
+      "architecture": "datprl",
+      "head": "point",
+      "amp": true,
+      "released": false
+    },
+    "logunet_m": {
+      "file": "logunet_m.pt",
+      "representation": "default",
+      "epoch": 7,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": true,
+      "released": false
+    },
+    "gauss_logunet": {
+      "file": "gauss_logunet.pt",
+      "representation": "default",
+      "epoch": 8,
+      "architecture": "logunet",
+      "head": "gaussian",
+      "amp": true,
+      "released": false
+    },
+    "adair_physicalsdc_run2": {
+      "file": "adair_physicalsdc_run2.pt",
+      "representation": "physical_sdc",
+      "epoch": 8,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": true
+    },
+    "adair_rawlog_run2": {
+      "file": "adair_rawlog_run2.pt",
+      "representation": "fullrange",
+      "epoch": 9,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "adair_clip_run2": {
+      "file": "adair_clip_run2.pt",
+      "representation": "physical_clip",
+      "epoch": 5,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "adair_null_run2": {
+      "file": "adair_null_run2.pt",
+      "representation": "physical_null",
+      "epoch": 2,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "adair_asinh_run2": {
+      "file": "adair_asinh_run2.pt",
+      "representation": "signed_asinh",
+      "epoch": 7,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "adair_physicalsdc_run3": {
+      "file": "adair_physicalsdc_run3.pt",
+      "representation": "physical_sdc",
+      "epoch": 7,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260718,
+      "released": true
+    },
+    "adair_rawlog_run3": {
+      "file": "adair_rawlog_run3.pt",
+      "representation": "fullrange",
+      "epoch": 8,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260718,
+      "released": false
+    },
+    "adair_clip_run3": {
+      "file": "adair_clip_run3.pt",
+      "representation": "physical_clip",
+      "epoch": 9,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260718,
+      "released": false
+    },
+    "adair_null_run3": {
+      "file": "adair_null_run3.pt",
+      "representation": "physical_null",
+      "epoch": 2,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260718,
+      "released": false
+    },
+    "adair_asinh_run3": {
+      "file": "adair_asinh_run3.pt",
+      "representation": "signed_asinh",
+      "epoch": 8,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "seed": 20260718,
+      "released": false
+    },
+    "logunet_physicalsdc_run1": {
+      "file": "logunet_physicalsdc_run1.pt",
+      "representation": "physical_sdc",
+      "epoch": 10,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260713,
+      "released": false
+    },
+    "logunet_rawlog_run1": {
+      "file": "logunet_rawlog_run1.pt",
+      "representation": "fullrange",
+      "epoch": 10,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260713,
+      "released": false
+    },
+    "logunet_physicalsdc_run2": {
+      "file": "logunet_physicalsdc_run2.pt",
+      "representation": "physical_sdc",
+      "epoch": 9,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "logunet_rawlog_run2": {
+      "file": "logunet_rawlog_run2.pt",
+      "representation": "fullrange",
+      "epoch": 7,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260714,
+      "released": false
+    },
+    "logunet_physicalsdc_run3": {
+      "file": "logunet_physicalsdc_run3.pt",
+      "representation": "physical_sdc",
+      "epoch": 10,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260715,
+      "released": false
+    },
+    "logunet_rawlog_run3": {
+      "file": "logunet_rawlog_run3.pt",
+      "representation": "fullrange",
+      "epoch": 7,
+      "architecture": "logunet",
+      "head": "point",
+      "amp": false,
+      "seed": 20260715,
+      "released": false
+    },
+    "gaussian_logunet_physicalsdc_run1": {
+      "file": "gaussian_logunet_physicalsdc_run1.pt",
+      "representation": "physical_sdc",
+      "epoch": 9,
+      "architecture": "logunet",
+      "head": "gaussian",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "gaussian_logunet_rawlog_run1": {
+      "file": "gaussian_logunet_rawlog_run1.pt",
+      "representation": "fullrange",
+      "epoch": 10,
+      "architecture": "logunet",
+      "head": "gaussian",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "physical_sdc_floor_1e-8": {
+      "file": "physical_sdc_floor_1e-8.pt",
+      "representation": "physical_sdc",
+      "epoch": 2,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "encoding_floor": 1e-8,
+      "released": false
+    },
+    "physical_sdc_floor_1e-6": {
+      "file": "physical_sdc_floor_1e-6.pt",
+      "representation": "physical_sdc",
+      "epoch": 7,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "encoding_floor": 0.000001,
+      "released": false
+    },
+    "physical_sdc_guard_1e-30": {
+      "file": "physical_sdc_guard_1e-30.pt",
+      "representation": "physical_sdc",
+      "epoch": 10,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "numerical_guard": 1e-30,
+      "released": false
+    },
+    "fullrange_guard_1e-30": {
+      "file": "fullrange_guard_1e-30.pt",
+      "representation": "fullrange",
+      "epoch": 10,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "numerical_guard": 1e-30,
+      "released": false
+    },
+    "physical_sdc_noise_1sigma": {
+      "file": "physical_sdc_noise_1sigma.pt",
+      "representation": "physical_sdc",
+      "epoch": 1,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "training_condition": "additive_1",
+      "released": false
+    },
+    "fullrange_noise_1sigma": {
+      "file": "fullrange_noise_1sigma.pt",
+      "representation": "fullrange",
+      "epoch": 5,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "training_condition": "additive_1",
+      "released": false
+    },
+    "physical_clip_noise_1sigma": {
+      "file": "physical_clip_noise_1sigma.pt",
+      "representation": "physical_clip",
+      "epoch": 3,
+      "architecture": "adair",
+      "head": "point",
+      "amp": false,
+      "training_condition": "additive_1",
+      "released": false
+    },
+    "promptir_physicalsdc_run1": {
+      "file": "promptir_physicalsdc_run1.pt",
+      "representation": "physical_sdc",
+      "epoch": 7,
+      "architecture": "promptir",
+      "head": "point",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "promptir_rawlog_run1": {
+      "file": "promptir_rawlog_run1.pt",
+      "representation": "fullrange",
+      "epoch": 9,
+      "architecture": "promptir",
+      "head": "point",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "datprl_physicalsdc_run1": {
+      "file": "datprl_physicalsdc_run1.pt",
+      "representation": "physical_sdc",
+      "epoch": 9,
+      "architecture": "datprl",
+      "head": "point",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    },
+    "datprl_rawlog_run1": {
+      "file": "datprl_rawlog_run1.pt",
+      "representation": "fullrange",
+      "epoch": 9,
+      "architecture": "datprl",
+      "head": "point",
+      "amp": false,
+      "seed": 20260710,
+      "released": false
+    }
+  },
+  "conditions": {
+    "clean": {
+      "kind": "clean"
+    },
+    "additive_0": {
+      "kind": "additive",
+      "multiplier": 0,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "additive_0.5": {
+      "kind": "additive",
+      "multiplier": 0.5,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "additive_1": {
+      "kind": "additive",
+      "multiplier": 1,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "additive_2": {
+      "kind": "additive",
+      "multiplier": 2,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "calibration_0.98": {
+      "kind": "calibration",
+      "gain": 0.98,
+      "interpretation": "synthetic sensitivity, +/-2%; not claimed instrument specification"
+    },
+    "calibration_1.02": {
+      "kind": "calibration",
+      "gain": 1.02,
+      "interpretation": "synthetic sensitivity, +/-2%; not claimed instrument specification"
+    },
+    "background_bias_-0.5": {
+      "kind": "background_bias",
+      "multiplier": -0.5,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "background_bias_0.5": {
+      "kind": "background_bias",
+      "multiplier": 0.5,
+      "interpretation": "Homogeneous source-scaled Gaussian/offset sensitivity; not calibrated detector noise on simulation1km/100m grid. Preserve source resolution, error support and covariance limitations."
+    },
+    "linear_quantization_1e-9": {
+      "kind": "linear_quantization",
+      "step_m_inv_sr_inv": 1e-9,
+      "interpretation": "synthetic nearest-even uniform linear ADC sensitivity; no claimed instrument step"
+    },
+    "hard_censor_F": {
+      "kind": "hard_censor",
+      "floor": 1e-7,
+      "interpretation": "replace all valid A<F, including nonpositive samples, by F before rebuilding every channel; targets/support unchanged"
+    },
+    "floor_1e-08": {
+      "kind": "coordinate_mismatch",
+      "encoding_floor": 1e-8,
+      "models": [
+        "adair_physicalsdc_run1",
+        "adair_clip_run1",
+        "adair_null_run1"
+      ],
+      "inference_mismatch": true,
+      "observability_floor_fixed": 1e-7,
+      "interpretation": "frozen-checkpoint encoding-only mismatch; no training-floor robustness claim"
+    },
+    "floor_1e-06": {
+      "kind": "coordinate_mismatch",
+      "encoding_floor": 0.000001,
+      "models": [
+        "adair_physicalsdc_run1",
+        "adair_clip_run1",
+        "adair_null_run1"
+      ],
+      "inference_mismatch": true,
+      "observability_floor_fixed": 1e-7,
+      "interpretation": "frozen-checkpoint encoding-only mismatch; no training-floor robustness claim"
+    },
+    "guard_1e-30": {
+      "kind": "coordinate_mismatch",
+      "numerical_guard": 1e-30,
+      "models": [
+        "adair_physicalsdc_run1",
+        "adair_rawlog_run1"
+      ],
+      "inference_mismatch": true,
+      "interpretation": "frozen-checkpoint numerical-guard mismatch; SDC denominator log10(F)-log10(guard), RawLog full-range denominator recomputed"
+    }
+  }
+}

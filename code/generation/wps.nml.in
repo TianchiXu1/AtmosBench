@@ -1,0 +1,11 @@
+&share
+ wrf_core='ARW', max_dom=1, start_date='${SY}-${SM}-${SD}_${SHH}:00:00', end_date='${EY}-${EM}-${ED}_${EH}:00:00', interval_seconds=21600,
+/
+&geogrid
+ e_we=221, e_sn=221, dx=1000, dy=1000, map_proj='mercator',
+ ref_lat=${REF_LAT}, ref_lon=${REF_LON}, truelat1=${REF_LAT}, truelat2=${REF_LAT}, stand_lon=${REF_LON},
+ geog_data_path='${GEOG_PATH}',
+/
+&metgrid
+ fg_name='ERA5', io_form_metgrid=2,
+/

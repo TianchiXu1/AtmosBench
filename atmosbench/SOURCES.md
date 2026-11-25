@@ -1,0 +1,29 @@
+# Data sources and acquisition
+
+AtmosBench contains the paired WRF–COSP arrays. The observational products below are separate validation sources. Obtain source products from their providers and follow the terms and credit requirements listed for each product.
+
+## Synthetic benchmark
+
+| Stage | Input or software | Source |
+| --- | --- | --- |
+| WRF atmospheric forcing | ERA5 hourly pressure-level reanalysis, 37 pressure levels | [Copernicus Climate Data Store](https://doi.org/10.24381/cds.bd0915c6) |
+| WRF surface forcing | ERA5 hourly single-level reanalysis | [Copernicus Climate Data Store](https://doi.org/10.24381/cds.adbb2d47) |
+| Atmospheric simulation | WRF v4.3.3 | [WRF release tags](https://github.com/wrf-model/WRF/tags) |
+| Lidar rendering | Standard COSP and a custom zero-optical-depth branch | [CFMIP COSPv2](https://github.com/CFMIP/COSPv2.0) |
+
+AtmosBench contains modified Copernicus Climate Change Service information from 2022–2025. The European Commission and ECMWF assume no responsibility for any use of that information. For ERA5 downloads, accept the terms for both source collections in the Climate Data Store. The event manifest identifies each event's date, UTC initialization hour and production domain center. WRF boundary updates are six-hourly over the 30 h model integration. The products are available at hourly cadence on a 0.25° grid. Pressure-level variables are geopotential, temperature, both horizontal wind components, relative humidity and specific humidity. Single-level variables cover surface pressure and mean sea-level pressure, 2 m temperature and dew point, both 10 m wind components, skin and sea surface temperature, land–sea mask, geopotential, snow depth, and four layers each of soil temperature and soil water. [ERA5 citation and attribution](https://confluence.ecmwf.int/pages/viewpage.action?pageId=78293465) · [Copernicus attribution terms](https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products)
+
+WRF uses a 221 × 221 Mercator grid at 1 km spacing, `e_vert=200`, `p_top_requested=5000`, `mp_physics=10`, `cu_physics=0`, `ra_lw_physics=4`, `ra_sw_physics=4`, `radt=10`, `bl_pbl_physics=1`, `sf_sfclay_physics=1`, and `sf_surface_physics=2`. The production runner retains forecast hours 13–30. The matched COSP branches share their atmospheric inputs. Trimming ten edge cells on each side and interpolating onto a common curtain grid yields the published pair geometry.
+
+The retained COSP2 source directory is identified as `COSPv2.0-2.1.7`. The attenuation branch evaluates cumulative and within-layer attenuation in `cmp_backsignal`. The zero-optical-depth branch returns the scattering term `beta` directly. Both calculations consume the same atmospheric fields. A same-input check over six atmospheric columns and 50 levels produced aligned finite results at both wavelengths and yielded ATB ≤ BC throughout the fixture. The [example driver](generation/README.md) documents the inputs, configuration, and checks. The exact historical ATB build revision and original forcing-to-target file mapping are incompletely archived. Use the canonical paired arrays for numerical reproduction of the benchmark.
+
+## Observational references
+
+| Evaluation | Product and role | Source | Roster |
+| --- | --- | --- | --- |
+| CALIOP | L1B 532 nm ATB V4-51 input, 5 km CPro V4-51 operational cloud retrieval, and companion 5 km APro V4-51 aerosol retrieval | [L1B](https://doi.org/10.5067/CALIOP/CALIPSO/CAL_LID_L1-Standard-V4-51), [CPro](https://doi.org/10.5067/CALIOP/CALIPSO/CAL_LID_L2_05kmCPro-Standard-V4-51), [APro](https://doi.org/10.5067/CALIOP/CALIPSO/CAL_LID_L2_05kmAPro-Standard-V4-51) | [Multi-architecture comparison, 29 granules](references/caliop_v4_51.csv), [matched representations, 1,270 orbits](references/caliop_v4_51_expanded.csv) |
+| EarthCARE CPR | ATLID nominal L1B 355 nm ATB input and CPR nominal L1B structural reference | [ESA EarthCARE MAAP](https://portal.maap.eo.esa.int/earthcare/earthcare-data-offer/), [JAXA CPR](https://eolp.jaxa.jp/EarthCARE_CPR_L1B_CPR_NOM.html), [JAXA G-Portal](https://gportal.jaxa.jp/gpr/) | [Multi-architecture comparison, six frames](references/earthcare_cpr_frames.csv), [matched representations, 1,298 orbits](references/earthcare_cpr_frames_expanded.csv) |
+| EarthCARE EBD | ATLID nominal L1B ATB input and ATLID L2A EBD operational retrieval | [ESA EarthCARE MAAP](https://portal.maap.eo.esa.int/earthcare/earthcare-data-offer/) | [41 frames grouped into 20 orbital records](references/earthcare_ebd_orbits.csv) |
+| PACE-PAX | ER-2 HSRL-2 R1 particulate backscatter for threshold-defined layer boundaries | [NASA ASDC PACE-PAX HSRL-2](https://data.nasa.gov/dataset/pace-pax-er-2-high-spectral-resolution-lidar-2-data) | [Fernald comparison, five flights](references/pace_pax_hsrl2_r1.csv), [matched representations, 12 flight-days](references/pace_pax_hsrl2_r1_expanded.csv) |
+
+For NASA products, open the collection in Earthdata Search, sign in with Earthdata Login, and select the filenames in the roster. Match the processing revision as well as the date. For EarthCARE, use the provider catalog to select the corresponding ATLID and CPR or EBD product types and filter for the listed frame IDs and dates where available. The 1,298-orbit CPR roster lists ATLID product filenames for 1,293 orbits and frame IDs for five orbits that also appear in the multi-architecture cohort. The six-frame roster retains frame IDs. Provider filenames and processing revisions for the corresponding CPR files are incomplete. Archive revisions can change the registered quantities and scores. Apply the [ESA MAAP terms](https://portal.maap.eo.esa.int/earthcare/terms-and-conditions/) or [JAXA EarthCARE terms](https://www.eorc.jaxa.jp/EARTHCARE/service/terms_e.html) for the products you obtain.
